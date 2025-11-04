@@ -39,15 +39,3 @@ await expect(navLabels).toHaveText(expectedLinks);
 });
 
 
-
-
-
-
-// test('See more link', async ({ page }) => {
-//   await page.goto('https://www.fifa.com/en');
-
-//   await page.getByRole('link', { name: 'See more' }).click();
-
-//   // Expects page to have a heading with the name of Installation.
-//   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-// });
